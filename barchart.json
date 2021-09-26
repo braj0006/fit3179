@@ -1,0 +1,9 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", "title": { "text": "Cheapest European cities" },
+    "data": {
+        "url": "country_vaccinations.csv"
+    },
+    "mark": "bar", "encoding": {
+        "x": { "field": "total_vaccinations", "type": "quantitative" },
+        "y": { "field": "country", "type": "nominal" } }
+}
