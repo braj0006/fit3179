@@ -1,5 +1,4 @@
-﻿Name,WHO Region,Cases - cumulative total,Cases - cumulative total per 100000 population,Cases - newly reported in last 7 days,Cases - newly reported in last 7 days per 100000 population,Cases - newly reported in last 24 hours,Deaths - cumulative total,Deaths - cumulative total per 100000 population,Deaths - newly reported in last 7 days,Deaths - newly reported in last 7 days per 100000 population,Deaths - newly reported in last 24 hours
-Global,,213050725,2733.332758409546,4517068,57.95169172206989,664610,4448352,57.070100289668666,68150,0.8743299394339575,8023,
+﻿Name,WHO Region,Cases - cumulative total,Cases,Cases - newly reported in last 7 days,Cases - newly reported in last 7 days per 100000 population,Cases - newly reported in last 24 hours,Deaths - cumulative total,Deaths - cumulative total per 100000 population,Deaths - newly reported in last 7 days,Deaths - newly reported in last 7 days per 100000 population,Deaths - newly reported in last 24 hours
 United States of America,Americas,37816239,11424.75,1038848,313.85,227282,625046,188.83,7418,2.24,1146
 India,South-East Asia,32512366,2355.96,226509,16.41,37593,435758,31.58,3239,0.23,648
 Brazil,Americas,20583994,9683.88,205424,96.64,13103,574848,270.44,5356,2.52,321
