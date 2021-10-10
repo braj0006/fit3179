@@ -14,11 +14,16 @@
 <body>
   
 <div id="symbol_map"></div>
+<div id="barchart"></div>
 
 <script type="text/javascript">
 
   var spec2 = "homework9.json";
+  var spec3 = "homework10.json"
   vegaEmbed('#symbol_map', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  vegaEmbed('#barchart', spec3).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>

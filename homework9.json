@@ -12,7 +12,7 @@
       "lookup": "properties.name",
       "from": {
         "data": {"url": "WHO-COVID-19-global-table-data 08-28-21.csv"},
-        "key": "Name",
+        "key": "countryName",
         "fields": ["Cases"]
       }
     }
@@ -22,7 +22,7 @@
   "encoding": {
     "color": {"field": "Cases", "type": "quantitative"},
     "tooltip": [
-      {"field": "properties.name", "type": "nominal", "title": "Name"},
+      {"field": "properties.name", "type": "nominal", "title": "Country name"},
       {"field": "Cases", "type": "quantitative"}
     ]
   }

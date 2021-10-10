@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", "width": 500,
+    "height": 400,
+    "title": "Cumulative Death by Region",
+    "data": {
+        "url": "WHO-COVID-19-global-table-data 08-28-21.csv"
+    },
+    "params": [
+        {
+            "name": "cumulativeDeathTotal_Above",
+            "value" : 0,
+            "bind" : {
+                "input" : "range",
+                "min" : 0,
+                "max" : 650000,
+                "step" : 50000,
+                "name" : "Death count"
+            }
+        }
+    ],
+    "transform": [
+        {"filter" : "datum.cumulativeDeathTotal > cumulativeDeathTotal_Above"}
+    ],
+    "mark": "bar",
+    "encoding": {
+        "x": {
+          "field": "WHORegion",
+          "type": "nominal",
+          "title": "Region"
+        }, 
+        "y": {
+            "field": "cumulativeDeathTotal",
+            "type": "quantitative"
+        },
+        "color": {
+            "field": "WHORegion",
+            "type": "nominal"
+        },
+        "tooltip": [
+            {"field": "cumulativeDeathTotal", "type": "quantitative", "title": "Cumulative Death"}
+        ]
+    }
+
+    
+}
